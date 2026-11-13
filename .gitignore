@@ -1,0 +1,10 @@
+**/build/
+**/__pycache__/
+*.o
+.tools/
+VMs/
+downloads/
+ubuntu-account.txt
+ubuntu-password.txt
+*.vdi
+*.iso
