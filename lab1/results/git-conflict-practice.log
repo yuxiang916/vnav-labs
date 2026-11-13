@@ -1,0 +1,34 @@
+Initialized empty Git repository in /home/syx/lab1-git-practice/.git/
+[main (root-commit) 807844b] Initial author
+ 1 file changed, 1 insertion(+)
+ create mode 100644 me.txt
+Switched to a new branch 'collaborator'
+[collaborator 9846b1e] Collaborator changes first line
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Switched to branch 'main'
+[main e2cd21c] Main changes first line
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Auto-merging me.txt
+CONFLICT (content): Merge conflict in me.txt
+Automatic merge failed; fix conflicts and then commit the result.
+UU me.txt
+<<<<<<< HEAD
+Shao Yuxiang
+=======
+Collaborator author
+>>>>>>> collaborator
+[main 38b034f] Resolve author conflict
+*   38b034f Resolve author conflict
+|\  
+| * 9846b1e Collaborator changes first line
+* | e2cd21c Main changes first line
+|/  
+* 807844b Initial author
+diff --git a/me.txt b/me.txt
+index 1aeb2cf..07741b7 100644
+--- a/me.txt
++++ b/me.txt
+@@ -1 +1,2 @@
+-Original author
++Shao Yuxiang
++Resolved collaborator conflict for Lab1.

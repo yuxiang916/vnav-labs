@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+Shao Yuxiang
+=======
+Collaborator author
+>>>>>>> collaborator

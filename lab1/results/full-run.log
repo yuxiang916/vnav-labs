@@ -158,3 +158,104 @@ ASan/UBSan many PASS
 ASan/UBSan invalid PASS
 === LOCAL GIT COMMITS ===
 Initialized empty Git repository in /home/syx/vnav-personal/.git/
+[main (root-commit) f3fb580] Complete Lab1 Shell and C++ exercises
+ 62 files changed, 23549 insertions(+)
+ create mode 100644 lab1/.gitignore
+ create mode 100644 lab1/RandomVector/CMakeLists.txt
+ create mode 100644 lab1/RandomVector/edge_cases.cpp
+ create mode 100644 lab1/RandomVector/main.cpp
+ create mode 100644 lab1/RandomVector/random_vector.cpp
+ create mode 100644 lab1/RandomVector/random_vector.h
+ create mode 100644 lab1/cpp-warmup.txt
+ create mode 100644 lab1/data/dante.txt
+ create mode 100644 lab1/environment-check/CMakeLists.txt
+ create mode 100644 lab1/environment-check/build/CMakeCache.txt
+ create mode 100644 lab1/environment-check/build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake
+ create mode 100755 lab1/environment-check/build/CMakeFiles/3.16.3/CMakeDetermineCompilerABI_CXX.bin
+ create mode 100644 lab1/environment-check/build/CMakeFiles/3.16.3/CMakeSystem.cmake
+ create mode 100644 lab1/environment-check/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp
+ create mode 100755 lab1/environment-check/build/CMakeFiles/3.16.3/CompilerIdCXX/a.out
+ create mode 100644 lab1/environment-check/build/CMakeFiles/CMakeDirectoryInformation.cmake
+ create mode 100644 lab1/environment-check/build/CMakeFiles/CMakeOutput.log
+ create mode 100644 lab1/environment-check/build/CMakeFiles/Makefile.cmake
+ create mode 100644 lab1/environment-check/build/CMakeFiles/Makefile2
+ create mode 100644 lab1/environment-check/build/CMakeFiles/TargetDirectories.txt
+ create mode 100644 lab1/environment-check/build/CMakeFiles/cmake.check_cache
+ create mode 100644 lab1/environment-check/build/CMakeFiles/hello.dir/CXX.includecache
+ create mode 100644 lab1/environment-check/build/CMakeFiles/hello.dir/DependInfo.cmake
+ create mode 100644 lab1/environment-check/build/CMakeFiles/hello.dir/build.make
+ create mode 100644 lab1/environment-check/build/CMakeFiles/hello.dir/cmake_clean.cmake
+ create mode 100644 lab1/environment-check/build/CMakeFiles/hello.dir/depend.internal
+ create mode 100644 lab1/environment-check/build/CMakeFiles/hello.dir/depend.make
+ create mode 100644 lab1/environment-check/build/CMakeFiles/hello.dir/flags.make
+ create mode 100644 lab1/environment-check/build/CMakeFiles/hello.dir/link.txt
+ create mode 100644 lab1/environment-check/build/CMakeFiles/hello.dir/progress.make
+ create mode 100644 lab1/environment-check/build/CMakeFiles/progress.marks
+ create mode 100644 lab1/environment-check/build/Makefile
+ create mode 100644 lab1/environment-check/build/cmake_install.cmake
+ create mode 100755 lab1/environment-check/build/hello
+ create mode 100644 lab1/environment-check/hello.cpp
+ create mode 100644 lab1/exercise1.txt
+ create mode 100644 lab1/fortunes.txt
+ create mode 100644 lab1/results/dante-sha256.txt
+ create mode 100644 lab1/results/fortune-preview.txt
+ create mode 100644 lab1/results/fortune-run-count.txt
+ create mode 100644 lab1/results/full-run.log
+ create mode 100644 lab1/results/random-vector-cmake.txt
+ create mode 100644 lab1/results/random-vector-output.txt
+ create mode 100644 lab1/results/sanitizers.txt
+ create mode 100644 lab1/results/shell-practice.log
+ create mode 100644 lab1/results/upstream-commit.txt
+ create mode 100644 lab1/results/validation.txt
+ create mode 100644 lab1/results/warmup-output.txt
+ create mode 100644 lab1/shell-practice/combined.txt
+ create mode 100755 lab1/shell-practice/extracted/hello.sh
+ create mode 100755 lab1/shell-practice/hello.sh
+ create mode 100644 lab1/shell-practice/numbers.txt
+ create mode 100644 lab1/shell-practice/renamed.txt
+ create mode 100644 lab1/shell-practice/sorted.txt
+ create mode 100644 lab1/shell-practice/stdout-only.txt
+ create mode 100644 lab1/shell-practice/tee-combined.txt
+ create mode 100644 lab1/shell-practice/tee-stdout.txt
+ create mode 100644 lab1/upstream-original/main.cpp
+ create mode 100644 lab1/upstream-original/random_vector.cpp
+ create mode 100644 lab1/upstream-original/random_vector.h
+ create mode 100644 lab1/validate.py
+ create mode 100644 lab1/warmup_verify.cpp
+f3fb580 Complete Lab1 Shell and C++ exercises
+=== BRANCH AND MERGE CONFLICT PRACTICE ===
+Initialized empty Git repository in /home/syx/lab1-git-practice/.git/
+[main (root-commit) 807844b] Initial author
+ 1 file changed, 1 insertion(+)
+ create mode 100644 me.txt
+Switched to a new branch 'collaborator'
+[collaborator 9846b1e] Collaborator changes first line
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Switched to branch 'main'
+[main e2cd21c] Main changes first line
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Auto-merging me.txt
+CONFLICT (content): Merge conflict in me.txt
+Automatic merge failed; fix conflicts and then commit the result.
+UU me.txt
+<<<<<<< HEAD
+Shao Yuxiang
+=======
+Collaborator author
+>>>>>>> collaborator
+[main 38b034f] Resolve author conflict
+*   38b034f Resolve author conflict
+|\  
+| * 9846b1e Collaborator changes first line
+* | e2cd21c Main changes first line
+|/  
+* 807844b Initial author
+diff --git a/me.txt b/me.txt
+index 1aeb2cf..07741b7 100644
+--- a/me.txt
++++ b/me.txt
+@@ -1 +1,2 @@
+-Original author
++Shao Yuxiang
++Resolved collaborator conflict for Lab1.
+=== FINAL RESULTS COMMIT ===
