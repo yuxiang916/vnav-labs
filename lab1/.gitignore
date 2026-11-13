@@ -1,4 +1,6 @@
 RandomVector/build/
+**/build/
+results/full-run.log
 RandomVector/random_vector
 RandomVector/edge_cases
 RandomVector/edge_cases_sanitized
