@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.10)
+project(lab1_random_vector LANGUAGES CXX)
+add_library(random_vector_lib random_vector.cpp)
+target_include_directories(random_vector_lib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(random_vector_lib PUBLIC cxx_std_11)
+target_compile_options(random_vector_lib PRIVATE -Wall -Wextra -pedantic)
+add_executable(random_vector main.cpp)
+target_link_libraries(random_vector PRIVATE random_vector_lib)

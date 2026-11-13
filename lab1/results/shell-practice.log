@@ -1,0 +1,22 @@
+/home/syx/vnav-personal/lab1/shell-practice
+./renamed.txt
+1
+2
+3
+Hello Lab1
+stderr
+stderr
+stdout
+stdout
+stderr
+total 40
+-rw-rw-r-- 1 syx syx   14 Nov 13 13:17 combined.txt
+drwxrwxr-x 2 syx syx 4096 Nov 13 13:17 extracted
+-rwxrwxr-x 1 syx syx   38 Nov 13 13:17 hello.sh
+-rw-rw-r-- 1 syx syx  158 Nov 13 13:17 hello.tar.gz
+-rw-rw-r-- 1 syx syx    6 Nov 13 13:17 numbers.txt
+-rw-rw-r-- 1 syx syx    6 Nov 13 13:17 renamed.txt
+-rw-rw-r-- 1 syx syx    6 Nov 13 13:17 sorted.txt
+-rw-rw-r-- 1 syx syx    7 Nov 13 13:17 stdout-only.txt
+-rw-rw-r-- 1 syx syx   14 Nov 13 13:17 tee-combined.txt
+-rw-rw-r-- 1 syx syx    7 Nov 13 13:17 tee-stdout.txt

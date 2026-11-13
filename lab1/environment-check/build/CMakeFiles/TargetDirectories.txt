@@ -1,0 +1,3 @@
+/home/syx/vnav-personal/lab1/environment-check/build/CMakeFiles/rebuild_cache.dir
+/home/syx/vnav-personal/lab1/environment-check/build/CMakeFiles/edit_cache.dir
+/home/syx/vnav-personal/lab1/environment-check/build/CMakeFiles/hello.dir

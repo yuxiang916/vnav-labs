@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.10)
+project(lab1_environment_check LANGUAGES CXX)
+find_package(Eigen3 REQUIRED)
+add_executable(hello hello.cpp)
+target_compile_features(hello PRIVATE cxx_std_11)
+target_compile_options(hello PRIVATE -Wall -Wextra -pedantic)
+target_link_libraries(hello PRIVATE Eigen3::Eigen)

@@ -1,0 +1,5 @@
+Source: https://raw.githubusercontent.com/dlang/dmd/master/druntime/benchmark/extra-files/dante.txt
+Lines (wc -l): 19567
+Words (wc -w): 97676
+Nonblank lines (grep -c): 14338
+Nonblank means at least one character other than whitespace.

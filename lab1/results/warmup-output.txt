@@ -1,0 +1,12 @@
+Operators1: 2 1
+Operators2: b
+Reference1: 10 10
+Pointer2: 1764
+Pointer3: 0
+Reference4: 0
+sizeof(short,int,long,long long): 2 4 8 8
+sizeof(float,double): 4 8
+digits10(float,double): 6 15
+FloatToInt: 3
+UnsignedChar: 255
+Condition: 0

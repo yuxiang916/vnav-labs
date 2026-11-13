@@ -1,0 +1,28 @@
+LAB1 C++ Warm-up | 邵宇翔 | 研0
+
+一、Operators（运算符）
+1. 最终 i=2，j=1。
+   j=++i：先把 i 从0加到1，再将1赋给j，所以两者都是1。
+   j=i++：先把当前的1赋给j，再把i加到2。
+2. 输出 b。i=42，条件 i<42 为假，三元运算符选择 "b"。
+
+二、References and Pointers（引用和指针）
+1. 输出 10 10。ri是i的别名，ri=10直接修改i。
+2. 输出1764。*j = *j**j 应读作 *j = (*j) * (*j)，即42乘42。
+3. 输出0。*(i+2)就是i[2]；它被赋值为i[1]-i[3]=24-24=0。
+4. 输出0。reset接收int引用，修改的就是调用方的j。
+
+三、Numbers（数值类型）
+1. short、int、long、long long都是整数类型，精度和范围依赖实现。
+   C++11保证至少分别16、16、32、64位，且sizeof(short)<=sizeof(int)
+   <=sizeof(long)<=sizeof(long long)。本次Ubuntu x86_64实测字节数为2、4、8、8。
+   Windows x64常见long为4字节，所以不能把Linux的结果推广到所有平台。
+2. float通常采用IEEE754单精度，4字节，约6至7位十进制有效数字；double通常
+   为双精度，8字节，约15至16位。本次机器符合该情况。
+   int i; i=3.14; 的结果是3，浮点转整数舍弃小数部分，朝零截断。
+3. signed能够表示负数；unsigned只能表示非负数，其运算按2的位宽次幂取模。
+   8位unsigned char的范围为0至255，将-1转换后得到255。
+   输出c的数值时要转换为int，否则cout会把unsigned char当字符输出。
+4. 最终i=0。初始42是非零值，转换为bool后为true，执行if分支。
+
+以上输出已在warmup_verify.cpp中分别构造独立作用域编译运行。
