@@ -148,7 +148,7 @@ git diff HEAD~2
 `HEAD~2`指沿第一父提交回溯两代，`git diff HEAD~2`比较那个提交与当前工作树。
 
 本次本地作者使用姓名“邵宇翔”，`lab1@localhost`只是实验标识，不是真实邮箱。
-目前没有远程仓库，也没有上传。若老师要求远程提交，需先确认仓库地址和权限，再在主仓库中设置remote并推送。
+已创建并推送私有仓库 https://github.com/yuxiang916/vnav-labs ，默认分支为main，保留完整本地历史。首次推送通过Windows中的GitHub CLI授权完成；GitHub网页登录与命令行认证是不同步骤。虚拟机本地仓库将同步相同历史和remote地址，今后在Ubuntu里推送仍需要在Ubuntu中另行完成Git身份认证。
 不要将`ubuntu-account.txt`、`ubuntu-password.txt`、虚拟机或整套LAB1目录上传。
 
 ## 8. 提交与答辩前检查

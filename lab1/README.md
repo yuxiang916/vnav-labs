@@ -44,7 +44,7 @@ python3 validate.py
 
 已完成官方示例仓库克隆、本地答案仓库提交及独立仓库中的分支合并冲突练习。
 本地Git作者邮箱`lab1@localhost`仅作为实验提交标识，未填写或推断真实邮箱。
-未配置远程提交地址，未推送至GitHub或MIT组织，也未提交至课堂派。
+已推送至私有仓库 https://github.com/yuxiang916/vnav-labs 的main分支；未向MIT组织或课堂派提交。
 MIT网页中的组织账户属于MIT课程；本班课堂派作业以老师要求为准。
 选择题目中的必做循环实现，未实现使用`<algorithm>`的选做加分版本。
 
