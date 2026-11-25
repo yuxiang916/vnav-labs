@@ -1,0 +1,76 @@
+Panels:
+  - Class: rviz/Displays
+    Name: Displays
+Visualization Manager:
+  Class: ""
+  Global Options:
+    Background Color: 30; 35; 45
+    Fixed Frame: world
+    Frame Rate: 15
+  Displays:
+    - Class: rviz/Grid
+      Name: Ground grid
+      Enabled: true
+      Cell Size: 2
+      Plane Cell Count: 60
+      Color: 80; 90; 100
+      Alpha: 0.3
+    - Class: rviz/Path
+      Name: Reference (blue)
+      Enabled: true
+      Topic: /lab4/path/desired
+      Color: 40; 160; 255
+      Alpha: 1
+      Buffer Length: 1
+      Line Style: Lines
+      Line Width: 0.10
+      Pose Style: None
+    - Class: rviz/Path
+      Name: Actual TESSE (orange)
+      Enabled: true
+      Topic: /lab4/path/actual
+      Color: 255; 155; 40
+      Alpha: 1
+      Buffer Length: 1
+      Line Style: Lines
+      Line Width: 0.10
+      Pose Style: None
+    - Class: rviz/MarkerArray
+      Name: Course gates (reference outlines)
+      Enabled: true
+      Marker Topic: /lab4/gates
+    - Class: rviz/Odometry
+      Name: Quadrotor
+      Enabled: true
+      Topic: /current_state
+      Keep: 1
+      Position Tolerance: 0
+      Angle Tolerance: 0
+      Shape: Arrow
+      Color: 255; 220; 80
+      Shaft Length: 1.0
+      Shaft Radius: 0.25
+      Head Length: 0.5
+      Head Radius: 0.35
+      Axes Length: 1
+      Axes Radius: 0.1
+  Views:
+    Current:
+      Class: rviz/Orbit
+      Distance: 64
+      Focal Point:
+        X: -22
+        Y: 3
+        Z: 2
+      Pitch: 1.25
+      Yaw: 1.57
+      Near Clip Distance: 0.01
+      Target Frame: world
+  Tools:
+    - Class: rviz/Interact
+    - Class: rviz/MoveCamera
+Window Geometry:
+  Width: 1280
+  Height: 720
+  X: 0
+  Y: 0

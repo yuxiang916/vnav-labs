@@ -1,0 +1,16 @@
+
+Published topics:
+ * /rosout_agg [rosgraph_msgs/Log] 1 publisher
+ * /rosout [rosgraph_msgs/Log] 4 publishers
+ * /tf_static [tf2_msgs/TFMessage] 2 publishers
+ * /visuals [visualization_msgs/MarkerArray] 1 publisher
+ * /initialpose [geometry_msgs/PoseWithCovarianceStamped] 1 publisher
+ * /move_base_simple/goal [geometry_msgs/PoseStamped] 1 publisher
+ * /clicked_point [geometry_msgs/PointStamped] 1 publisher
+
+Subscribed topics:
+ * /rosout [rosgraph_msgs/Log] 1 subscriber
+ * /tf [tf2_msgs/TFMessage] 2 subscribers
+ * /tf_static [tf2_msgs/TFMessage] 2 subscribers
+ * /visuals [visualization_msgs/MarkerArray] 1 subscriber
+

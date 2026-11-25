@@ -1,0 +1,213 @@
+{
+  "samples": 5561,
+  "duration_sim_s": 122.800000001,
+  "position_rmse_m": 0.5060523044916382,
+  "position_max_error_m": 1.345673244965487,
+  "yaw_rmse_deg": 0.8073337950036522,
+  "max_speed_m_s": 4.0719466833263045,
+  "final_position": [
+    -39.62025,
+    14.97001,
+    2.288222
+  ],
+  "final_target": [
+    -39.620000000004104,
+    14.969999999998848,
+    2.510287000000099
+  ],
+  "gates_passed_in_order": 12,
+  "gate_count": 12,
+  "crossing_window_half_size_m": 0.75,
+  "complete": true,
+  "gates": [
+    {
+      "gate": 0,
+      "center": [
+        0.4226201,
+        3.165232,
+        2.67
+      ],
+      "closest_center_distance_m": 0.4412039741293022,
+      "passed_in_order": true,
+      "forward_crossing": true,
+      "time_s": 5.2784988014170455,
+      "lateral_error_m": 0.4425568992933187,
+      "vertical_error_m": 0.04792947275628862
+    },
+    {
+      "gate": 1,
+      "center": [
+        0.67,
+        -4.31,
+        2.04
+      ],
+      "closest_center_distance_m": 0.5026912708969593,
+      "passed_in_order": true,
+      "forward_crossing": true,
+      "time_s": 10.011613015329804,
+      "lateral_error_m": 0.492446260647294,
+      "vertical_error_m": -0.18593437959673859
+    },
+    {
+      "gate": 2,
+      "center": [
+        -5.41,
+        -9.13,
+        2.88
+      ],
+      "closest_center_distance_m": 0.35363961114812903,
+      "passed_in_order": true,
+      "forward_crossing": true,
+      "time_s": 14.829239863076971,
+      "lateral_error_m": -0.37848633527967246,
+      "vertical_error_m": -0.13679430241359045
+    },
+    {
+      "gate": 3,
+      "center": [
+        -14.94,
+        -6.83,
+        2.84
+      ],
+      "closest_center_distance_m": 0.35252178171568344,
+      "passed_in_order": true,
+      "forward_crossing": true,
+      "time_s": 20.333297330254844,
+      "lateral_error_m": 0.2779982351915286,
+      "vertical_error_m": -0.22941672109210043
+    },
+    {
+      "gate": 4,
+      "center": [
+        -17.83,
+        1.38,
+        2.67
+      ],
+      "closest_center_distance_m": 0.2033009741467067,
+      "passed_in_order": true,
+      "forward_crossing": true,
+      "time_s": 25.24888793363229,
+      "lateral_error_m": -0.12568220693100468,
+      "vertical_error_m": -0.16085073365043667
+    },
+    {
+      "gate": 5,
+      "center": [
+        -20.2,
+        5.960001,
+        2.67
+      ],
+      "closest_center_distance_m": 0.26890625058558953,
+      "passed_in_order": true,
+      "forward_crossing": true,
+      "time_s": 30.89132754797879,
+      "lateral_error_m": 0.01257213693346205,
+      "vertical_error_m": -0.2696129019607842
+    },
+    {
+      "gate": 6,
+      "center": [
+        -27.85,
+        6.470001,
+        2.67
+      ],
+      "closest_center_distance_m": 0.22611608181860862,
+      "passed_in_order": true,
+      "forward_crossing": true,
+      "time_s": 35.11245559100941,
+      "lateral_error_m": 0.1621282601880879,
+      "vertical_error_m": -0.15990594775339556
+    },
+    {
+      "gate": 7,
+      "center": [
+        -32.45,
+        3.28,
+        3.57
+      ],
+      "closest_center_distance_m": 0.27145386473211536,
+      "passed_in_order": true,
+      "forward_crossing": true,
+      "time_s": 40.52100494561002,
+      "lateral_error_m": 0.17525165858556332,
+      "vertical_error_m": -0.20765393965635467
+    },
+    {
+      "gate": 8,
+      "center": [
+        -37.67,
+        -1.17,
+        2.2
+      ],
+      "closest_center_distance_m": 0.5407360522602501,
+      "passed_in_order": true,
+      "forward_crossing": true,
+      "time_s": 44.868930741156696,
+      "lateral_error_m": 0.5453382702460559,
+      "vertical_error_m": -0.15276971980468337
+    },
+    {
+      "gate": 9,
+      "center": [
+        -44.96,
+        0.9899998,
+        2.510287
+      ],
+      "closest_center_distance_m": 0.6424814984175333,
+      "passed_in_order": true,
+      "forward_crossing": true,
+      "time_s": 50.183004147663176,
+      "lateral_error_m": -0.6878060278433915,
+      "vertical_error_m": -0.1977266774706154
+    },
+    {
+      "gate": 10,
+      "center": [
+        -46.41,
+        9.77,
+        2.510287
+      ],
+      "closest_center_distance_m": 0.19376865834546295,
+      "passed_in_order": true,
+      "forward_crossing": true,
+      "time_s": 55.53955586297829,
+      "lateral_error_m": 0.0984985510019186,
+      "vertical_error_m": -0.16725842808306574
+    },
+    {
+      "gate": 11,
+      "center": [
+        -39.62,
+        14.97,
+        2.510287
+      ],
+      "closest_center_distance_m": 0.1131253823197961,
+      "passed_in_order": true,
+      "forward_crossing": true,
+      "time_s": 67.79654062225876,
+      "lateral_error_m": -0.13685228154195042,
+      "vertical_error_m": -0.16960908107148975
+    }
+  ],
+  "race_duration_sim_s": 67.79654062225876,
+  "race_position_rmse_m": 0.5905011786439375,
+  "race_position_max_error_m": 1.345673244965487,
+  "race_yaw_rmse_deg": 1.0694686543658805,
+  "planned_trajectory_duration_sim_s": 60.32084059153028,
+  "gate_crossing_direction": "forward, following course order",
+  "last_gate_first_crossing": {
+    "time_s": 57.72,
+    "lateral_error_m": -0.8766632538856053,
+    "vertical_error_m": -0.27040846236766686,
+    "passed_conservative_window": false
+  },
+  "last_gate_correction": "Valid forward crossing during final position hold; no reset.",
+  "recorded_collision_messages": 26,
+  "recorded_collision_objects": [
+    "Floor_01"
+  ],
+  "last_recorded_collision_raw_sim_time_s": 10.539999998999999,
+  "flight.csv_sha256": "df95c0a47ecd31972b672e90a6427a0d004c98a0a33e6d071aed377720970378",
+  "flight.bag_sha256": "50d94fcf26171261f4058291d8b9e7c3f8645499f4b49e434ccec19c4c87dafe",
+  "rviz_drone_race.mp4_sha256": "b24752dd03cde85303613f06781d25b97c3b23cdd7fdeab7209af88c030b3f3d"
+}

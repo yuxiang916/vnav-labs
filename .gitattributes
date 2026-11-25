@@ -1,4 +1,9 @@
 * text=auto eol=lf
 *.pdf binary
-*.bundle binary
 *.mp4 binary
+*.bag binary
+*.bundle binary
+*.gz binary
+*.npy binary
+*.jpg binary
+*.png binary

@@ -1,0 +1,136 @@
+{
+  "duration_sim_s": 130.6,
+  "topics": {
+    "/clock": {
+      "type": "rosgraph_msgs/Clock",
+      "messages": 5879
+    },
+    "/current_state": {
+      "type": "nav_msgs/Odometry",
+      "messages": 6491
+    },
+    "/desired_state": {
+      "type": "trajectory_msgs/MultiDOFJointTrajectoryPoint",
+      "messages": 10157
+    },
+    "/desired_traj_vertices": {
+      "type": "geometry_msgs/PoseArray",
+      "messages": 614
+    },
+    "/rotor_speed_cmds": {
+      "type": "mav_msgs/Actuators",
+      "messages": 5694
+    },
+    "/tesse/collision": {
+      "type": "tesse_ros_bridge/CollisionStats",
+      "messages": 26
+    }
+  },
+  "collision_messages": [
+    {
+      "t": 9.0,
+      "object": "Floor_01"
+    },
+    {
+      "t": 9.08,
+      "object": "Floor_01"
+    },
+    {
+      "t": 9.199999999,
+      "object": "Floor_01"
+    },
+    {
+      "t": 9.22,
+      "object": "Floor_01"
+    },
+    {
+      "t": 9.279999999,
+      "object": "Floor_01"
+    },
+    {
+      "t": 9.3,
+      "object": "Floor_01"
+    },
+    {
+      "t": 9.32,
+      "object": "Floor_01"
+    },
+    {
+      "t": 9.339999999,
+      "object": "Floor_01"
+    },
+    {
+      "t": 9.38,
+      "object": "Floor_01"
+    },
+    {
+      "t": 9.74,
+      "object": "Floor_01"
+    },
+    {
+      "t": 9.759999999,
+      "object": "Floor_01"
+    },
+    {
+      "t": 9.82,
+      "object": "Floor_01"
+    },
+    {
+      "t": 10.019999999,
+      "object": "Floor_01"
+    },
+    {
+      "t": 10.039999999,
+      "object": "Floor_01"
+    },
+    {
+      "t": 10.06,
+      "object": "Floor_01"
+    },
+    {
+      "t": 10.08,
+      "object": "Floor_01"
+    },
+    {
+      "t": 10.099999999,
+      "object": "Floor_01"
+    },
+    {
+      "t": 10.119999999,
+      "object": "Floor_01"
+    },
+    {
+      "t": 10.14,
+      "object": "Floor_01"
+    },
+    {
+      "t": 10.16,
+      "object": "Floor_01"
+    },
+    {
+      "t": 10.199999999,
+      "object": "Floor_01"
+    },
+    {
+      "t": 10.24,
+      "object": "Floor_01"
+    },
+    {
+      "t": 10.279999999,
+      "object": "Floor_01"
+    },
+    {
+      "t": 10.4,
+      "object": "Floor_01"
+    },
+    {
+      "t": 10.48,
+      "object": "Floor_01"
+    },
+    {
+      "t": 10.539999998999999,
+      "object": "Floor_01"
+    }
+  ],
+  "required_topics": "PASS"
+}

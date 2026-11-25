@@ -1,0 +1,15 @@
+<launch>
+  <arg name="static_pose" default="false"/>
+  <arg name="kx" default="2.0"/>
+  <arg name="kv" default="3.0"/>
+  <arg name="kr" default="8.0"/>
+  <arg name="komega" default="4.0"/>
+  <param name="kx" type="double" value="$(arg kx)"/>
+  <param name="kv" type="double" value="$(arg kv)"/>
+  <param name="kr" type="double" value="$(arg kr)"/>
+  <param name="komega" type="double" value="$(arg komega)"/>
+  <node name="traj_publisher" pkg="controller_pkg" type="traj_publisher">
+    <param name="static_pose" value="$(arg static_pose)"/>
+  </node>
+  <node name="controller_node" pkg="controller_pkg" type="controller_node"/>
+</launch>

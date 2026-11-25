@@ -1,0 +1,197 @@
+{
+  "environment": {
+    "python": "3.14.7",
+    "opencv": "5.0.0",
+    "numpy": "2.5.3",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "opencv_threads": 1
+  },
+  "input_size_wh": [
+    1282,
+    1110
+  ],
+  "processing_size_wh": [
+    641,
+    555
+  ],
+  "downsampling": "cv2.pyrDown",
+  "repeats": 3,
+  "common_roi_xyxy": [
+    135,
+    7,
+    634,
+    548
+  ],
+  "roi_pixel_count": 269959,
+  "epipolar_check": {
+    "ratio_threshold": 0.7,
+    "ransac_threshold_px": 1.0,
+    "ratio_matches": 1624,
+    "ransac_inliers": 1514,
+    "vertical_median_px": 0.04868316650390625,
+    "vertical_p95_px": 0.189311221241951
+  },
+  "disparity_display_range_px": [
+    0,
+    128
+  ],
+  "relative_depth_display_percentiles": [
+    2,
+    98
+  ],
+  "relative_depth_display_limits": [
+    0.013998250477015972,
+    0.04301075264811516
+  ],
+  "detail_crop_xyxy": [
+    240,
+    160,
+    500,
+    400
+  ],
+  "region_statistics": {
+    "background": {
+      "xyxy": [
+        145,
+        100,
+        210,
+        160
+      ],
+      "valid_pixels": 3900,
+      "median_disparity_px": 26.3125,
+      "median_relative_depth": 0.03800475224852562
+    },
+    "plant": {
+      "xyxy": [
+        270,
+        220,
+        350,
+        300
+      ],
+      "valid_pixels": 4925,
+      "median_disparity_px": 32.4375,
+      "median_relative_depth": 0.03082851693034172
+    },
+    "foreground": {
+      "xyxy": [
+        370,
+        405,
+        440,
+        470
+      ],
+      "valid_pixels": 4528,
+      "median_disparity_px": 57.125,
+      "median_relative_depth": 0.017505470663309097
+    }
+  },
+  "focal_px": null,
+  "baseline_m": null,
+  "metrics": [
+    {
+      "config": "BM_D128_B9",
+      "algorithm": "BM",
+      "num_disparities": 128,
+      "block_size": 9,
+      "median_ms": 20.895299998301198,
+      "times_ms": [
+        21.84780000061437,
+        20.18800000041665,
+        20.895299998301198
+      ],
+      "valid_roi_percent": 72.05242277531032,
+      "lr_checked_pixels": 149053,
+      "lr_pass_percent": 99.91412450604818,
+      "lr_consistent_roi_percent": 55.16578443393256,
+      "roi_disparity_median_px": 30.6875
+    },
+    {
+      "config": "BM_D128_B15",
+      "algorithm": "BM",
+      "num_disparities": 128,
+      "block_size": 15,
+      "median_ms": 21.33019999928365,
+      "times_ms": [
+        21.33019999928365,
+        21.079500000269036,
+        21.50449999862758
+      ],
+      "valid_roi_percent": 76.214165854815,
+      "lr_checked_pixels": 158824,
+      "lr_pass_percent": 99.79725985997078,
+      "lr_consistent_roi_percent": 58.71336017691576,
+      "roi_disparity_median_px": 31.0
+    },
+    {
+      "config": "SGBM_D128_B3",
+      "algorithm": "SGBM",
+      "num_disparities": 128,
+      "block_size": 3,
+      "median_ms": 49.52860000048531,
+      "times_ms": [
+        53.86489999909827,
+        49.06750000009197,
+        49.52860000048531
+      ],
+      "valid_roi_percent": 87.83926448090266,
+      "lr_checked_pixels": 190109,
+      "lr_pass_percent": 97.72183326407482,
+      "lr_consistent_roi_percent": 68.81711667327261,
+      "roi_disparity_median_px": 32.3125
+    },
+    {
+      "config": "SGBM_D128_B5",
+      "algorithm": "SGBM",
+      "num_disparities": 128,
+      "block_size": 5,
+      "median_ms": 50.520000000688015,
+      "times_ms": [
+        50.520000000688015,
+        49.390099999072845,
+        53.217399999994086
+      ],
+      "valid_roi_percent": 87.65886671679773,
+      "lr_checked_pixels": 189945,
+      "lr_pass_percent": 97.86043328331886,
+      "lr_consistent_roi_percent": 68.85527061516748,
+      "roi_disparity_median_px": 32.3125
+    },
+    {
+      "config": "SGBM_D128_B9",
+      "algorithm": "SGBM",
+      "num_disparities": 128,
+      "block_size": 9,
+      "median_ms": 53.33450000034645,
+      "times_ms": [
+        58.84610000066459,
+        50.71640000096522,
+        53.33450000034645
+      ],
+      "valid_roi_percent": 87.96187569223474,
+      "lr_checked_pixels": 190259,
+      "lr_pass_percent": 97.40301378647003,
+      "lr_consistent_roi_percent": 68.64672042791683,
+      "roi_disparity_median_px": 32.375
+    },
+    {
+      "config": "SGBM_D96_B5",
+      "algorithm": "SGBM",
+      "num_disparities": 96,
+      "block_size": 5,
+      "median_ms": 45.64550000031886,
+      "times_ms": [
+        44.258399999307585,
+        50.546799999210634,
+        45.64550000031886
+      ],
+      "valid_roi_percent": 87.85334069247553,
+      "lr_checked_pixels": 205828,
+      "lr_pass_percent": 97.80496336747187,
+      "lr_consistent_roi_percent": 74.57058294037243,
+      "roi_disparity_median_px": 32.34375
+    }
+  ],
+  "data_sha256": {
+    "aloeL.jpg": "cce5736808efe80d9f04b118dbb978c344d4345672b332718c3e039a3eeb8eee",
+    "aloeR.jpg": "9b23100df31a846bc6e6a6545563b2b4120b948c9835c7d36cde00af77f4503e"
+  }
+}

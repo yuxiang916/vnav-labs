@@ -1,0 +1,42 @@
+--------------------------------------------------------------------------------
+Node [/rviz]
+Publications: 
+ * /clicked_point [geometry_msgs/PointStamped]
+ * /initialpose [geometry_msgs/PoseWithCovarianceStamped]
+ * /move_base_simple/goal [geometry_msgs/PoseStamped]
+ * /rosout [rosgraph_msgs/Log]
+
+Subscriptions: 
+ * /tf [tf2_msgs/TFMessage]
+ * /tf_static [tf2_msgs/TFMessage]
+ * /visuals [visualization_msgs/MarkerArray]
+
+Services: 
+ * /rviz/get_loggers
+ * /rviz/load_config
+ * /rviz/load_config_discarding_changes
+ * /rviz/reload_shaders
+ * /rviz/save_config
+ * /rviz/set_logger_level
+
+
+contacting node http://vnav-lab:35449/ ...
+Pid: 23628
+Connections:
+ * topic: /rosout
+    * to: /rosout
+    * direction: outbound (58921 - 127.0.0.1:59590) [19]
+    * transport: TCPROS
+ * topic: /tf_static
+    * to: /av2broadcaster (http://vnav-lab:39497/)
+    * direction: inbound (42844 - vnav-lab:34001) [23]
+    * transport: TCPROS
+ * topic: /tf_static
+    * to: /av1broadcaster (http://vnav-lab:37213/)
+    * direction: inbound (57992 - vnav-lab:52875) [24]
+    * transport: TCPROS
+ * topic: /visuals
+    * to: /plots_publisher_node (http://vnav-lab:43635/)
+    * direction: inbound (57098 - vnav-lab:56007) [15]
+    * transport: TCPROS
+

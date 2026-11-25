@@ -1,0 +1,42 @@
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-syx'
+[33m[WARN] [1794550078.670539104]: Shutdown request received.[0m
+[33m[WARN] [1794550078.670800677]: Reason given for shutdown: [user request][0m
+... logging to /home/syx/.ros/log/8214dfc0-df28-11f1-b325-f3256d5f0221/roslaunch-vnav-lab-23715.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/home/syx/vnav_ws/src/two_drones_pkg/launch/two_drones.launch
+[1mstarted roslaunch server http://vnav-lab:37353/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.17.4
+
+NODES
+  /
+    frames_publisher_node (two_drones_pkg/frames_publisher_node)
+    plots_publisher_node (two_drones_pkg/plots_publisher_node)
+    rviz (rviz/rviz)
+
+auto-starting new master
+[1mprocess[master]: started with pid [23725][0m
+[1mROS_MASTER_URI=http://localhost:11311[0m
+]2;/home/syx/vnav_ws/src/two_drones_pkg/launch/two_drones.launch http://localhost:11311
+[1msetting /run_id to 8214dfc0-df28-11f1-b325-f3256d5f0221[0m
+[1mprocess[rosout-1]: started with pid [23735][0m
+started core service [/rosout]
+[1mprocess[frames_publisher_node-2]: started with pid [23738][0m
+[1mprocess[plots_publisher_node-3]: started with pid [23740][0m
+[1mprocess[rviz-4]: started with pid [23751][0m
+[1m[rviz-4] process has finished cleanly
+log file: /home/syx/.ros/log/8214dfc0-df28-11f1-b325-f3256d5f0221/rviz-4*.log[0m
+[plots_publisher_node-3] killing on exit
+[frames_publisher_node-2] killing on exit
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m

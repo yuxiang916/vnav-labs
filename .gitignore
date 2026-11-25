@@ -1,6 +1,14 @@
 **/build/
+**/devel/
+**/install/
+**/logs/
 **/__pycache__/
+*.py[cod]
 *.o
+*.exe
+**/random_vector
+**/edge_cases
+**/warmup_verify
 .tools/
 VMs/
 downloads/

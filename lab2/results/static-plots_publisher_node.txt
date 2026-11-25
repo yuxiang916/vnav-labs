@@ -1,0 +1,35 @@
+--------------------------------------------------------------------------------
+Node [/plots_publisher_node]
+Publications: 
+ * /rosout [rosgraph_msgs/Log]
+ * /visuals [visualization_msgs/MarkerArray]
+
+Subscriptions: 
+ * /tf [tf2_msgs/TFMessage]
+ * /tf_static [tf2_msgs/TFMessage]
+
+Services: 
+ * /plots_publisher_node/get_loggers
+ * /plots_publisher_node/set_logger_level
+
+
+contacting node http://vnav-lab:43635/ ...
+Pid: 23622
+Connections:
+ * topic: /rosout
+    * to: /rosout
+    * direction: outbound (56007 - 127.0.0.1:57086) [10]
+    * transport: TCPROS
+ * topic: /visuals
+    * to: /rviz
+    * direction: outbound (56007 - 127.0.0.1:57098) [12]
+    * transport: TCPROS
+ * topic: /tf_static
+    * to: /av1broadcaster (http://vnav-lab:37213/)
+    * direction: inbound (57968 - vnav-lab:52875) [13]
+    * transport: TCPROS
+ * topic: /tf_static
+    * to: /av2broadcaster (http://vnav-lab:39497/)
+    * direction: inbound (42820 - vnav-lab:34001) [14]
+    * transport: TCPROS
+

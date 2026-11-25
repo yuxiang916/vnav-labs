@@ -1,0 +1,29 @@
+--------------------------------------------------------------------------------
+Node [/av2broadcaster]
+Publications: 
+ * /rosout [rosgraph_msgs/Log]
+ * /tf_static [tf2_msgs/TFMessage]
+
+Subscriptions: None
+
+Services: 
+ * /av2broadcaster/get_loggers
+ * /av2broadcaster/set_logger_level
+
+
+contacting node http://vnav-lab:39497/ ...
+Pid: 23616
+Connections:
+ * topic: /rosout
+    * to: /rosout
+    * direction: outbound (34001 - 127.0.0.1:42834) [13]
+    * transport: TCPROS
+ * topic: /tf_static
+    * to: /plots_publisher_node
+    * direction: outbound (34001 - 127.0.0.1:42820) [12]
+    * transport: TCPROS
+ * topic: /tf_static
+    * to: /rviz
+    * direction: outbound (34001 - 127.0.0.1:42844) [11]
+    * transport: TCPROS
+

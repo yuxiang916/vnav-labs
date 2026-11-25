@@ -1,0 +1,101 @@
+-------------------------------------------------------
+Profile:                     default
+Extending:        [explicit] /opt/ros/noetic
+Workspace:                   /home/syx/lab4_ws
+-------------------------------------------------------
+Build Space:        [exists] /home/syx/lab4_ws/build
+Devel Space:        [exists] /home/syx/lab4_ws/devel
+Install Space:      [unused] /home/syx/lab4_ws/install
+Log Space:          [exists] /home/syx/lab4_ws/logs
+Source Space:       [exists] /home/syx/lab4_ws/src
+DESTDIR:            [unused] None
+-------------------------------------------------------
+Devel Space Layout:          linked
+Install Space Layout:        None
+-------------------------------------------------------
+Additional CMake Args:       -DCMAKE_BUILD_TYPE=Release
+Additional Make Args:        None
+Additional catkin Make Args: None
+Internal Make Job Server:    True
+Cache Job Environments:      False
+-------------------------------------------------------
+Buildlisted Packages:        None
+Skiplisted Packages:         None
+-------------------------------------------------------
+Workspace configuration appears valid.
+-------------------------------------------------------
+_______________________________________________________________________________
+Warnings << trajectory_generation:make /home/syx/lab4_ws/logs/trajectory_generation/build.make.000.log
+/home/syx/lab4_ws/src/trajectory_generation_pkg/src/trajectory_generation_node.cpp:21:36: warning: ‘maybe_unused’ attribute ignored [-Wattributes]
+   21 |   [[maybe_unused]] ros::Subscriber currentStateSub;
+      |                                    ^~~~~~~~~~~~~~~
+/home/syx/lab4_ws/src/trajectory_generation_pkg/src/trajectory_generation_node.cpp:22:36: warning: ‘maybe_unused’ attribute ignored [-Wattributes]
+   22 |   [[maybe_unused]] ros::Subscriber poseArraySub;
+      |                                    ^~~~~~~~~~~~
+cd /home/syx/lab4_ws/build/trajectory_generation; catkin build --get-env trajectory_generation | catkin env -si  /usr/bin/make --jobserver-auth=3,4; cd -
+
+...............................................................................
+-------------------------------------------------------
+Profile:                     default
+Extending:        [explicit] /opt/ros/noetic
+Workspace:                   /home/syx/lab4_ws
+-------------------------------------------------------
+Build Space:        [exists] /home/syx/lab4_ws/build
+Devel Space:        [exists] /home/syx/lab4_ws/devel
+Install Space:      [unused] /home/syx/lab4_ws/install
+Log Space:          [exists] /home/syx/lab4_ws/logs
+Source Space:       [exists] /home/syx/lab4_ws/src
+DESTDIR:            [unused] None
+-------------------------------------------------------
+Devel Space Layout:          linked
+Install Space Layout:        None
+-------------------------------------------------------
+Additional CMake Args:       -DCMAKE_BUILD_TYPE=Release
+Additional Make Args:        -j2
+Additional catkin Make Args: None
+Internal Make Job Server:    True
+Cache Job Environments:      False
+-------------------------------------------------------
+Buildlisted Packages:        None
+Skiplisted Packages:         None
+-------------------------------------------------------
+Workspace configuration appears valid.
+-------------------------------------------------------
+[build] Found 20 packages in 0.0 seconds.                                      
+[build] Package table is up to date.                                           
+Starting >>> catkin_simple                           
+Finished <<< catkin_simple                            [ 0.4 seconds ]
+Starting >>> eigen_catkin                            
+Finished <<< eigen_catkin                             [ 0.2 seconds ]
+Starting >>> gflags_catkin                           
+Finished <<< gflags_catkin                            [ 0.2 seconds ]
+Starting >>> glog_catkin                             
+Finished <<< glog_catkin                              [ 0.2 seconds ]
+Starting >>> eigen_checks                            
+Finished <<< eigen_checks                             [ 0.6 seconds ]
+Starting >>> mav_msgs                                
+Finished <<< mav_msgs                                 [ 1.3 seconds ]
+Starting >>> controller_pkg                          
+Finished <<< controller_pkg                           [ 1.9 seconds ]
+Starting >>> mav_planning_msgs                       
+Finished <<< mav_planning_msgs                        [ 2.6 seconds ]
+Starting >>> mav_visualization                       
+Finished <<< mav_visualization                        [ 2.8 seconds ]
+Starting >>> nlopt                                   
+Finished <<< nlopt                                    [ 0.4 seconds ]
+Starting >>> planner_pkg                             
+Finished <<< planner_pkg                              [ 2.3 seconds ]
+Starting >>> tesse_ros_bridge                        
+Finished <<< tesse_ros_bridge                         [ 2.0 seconds ]
+Starting >>> yaml_cpp_catkin                         
+Finished <<< yaml_cpp_catkin                          [ 0.5 seconds ]
+Starting >>> mav_trajectory_generation               
+Finished <<< mav_trajectory_generation                [ 1.5 seconds ]
+Starting >>> trajectory_generation                   
+Finished <<< trajectory_generation                    [ 39.0 seconds ]
+[build] Summary: All 15 packages succeeded!
+[build] Ignored: 5 packages were skipped or are skiplisted.
+[build] Warnings: 1 packages succeeded with warnings.
+[build] Abandoned: No packages were abandoned.
+[build] Failed: No packages failed.
+[build] Runtime: 56.0 seconds total.
